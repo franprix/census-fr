@@ -1,0 +1,121 @@
+sources:
+  
+  # Activité des résidents en 2015 (ACT) - France hors Mayotte
+  ACT:
+    description: French census data, professional activity, metropolitan
+    driver: excel
+    args:
+      urlpath: 'https://www.insee.fr/fr/statistiques/fichier/3627009/base-ic-activite-residents-2015.zip'
+      compression_method: 'zip'
+      excel_kwargs:
+        header: 5
+    metadata:
+      official_name: Activité des résidents en 2015 - Base infracommunale - France hors Mayotte
+
+  # Activité des résidents en 2015 (ACT) - Collectivités d'outre-mer
+  ACT-com:
+    description: French census data, professional activity, overseas
+    driver: excel
+    args:
+      urlpath: 'https://www.insee.fr/fr/statistiques/fichier/3627009/base-ic-activite-residents-2015-com.zip'
+      compression_method: 'zip'
+      excel_kwargs:
+        header: 5
+    metadata:
+      official_name: Activité des résidents en 2015 - Base infracommunale - Collectivités d'outre-mer
+
+  # Diplômes - Formation en 2015 (FOR) - France hors Mayotte
+  FOR:
+    description: French census data, education, metropolitan
+    driver: excel
+    args:
+      urlpath: 'https://www.insee.fr/fr/statistiques/fichier/3627372/base-ic-diplomes-formation-2015.zip'
+      compression_method: 'zip'
+      excel_kwargs:
+        header: 5
+    metadata:
+      official_name: Diplômes - Formation en 2015 - Base infracommunale - France hors Mayotte
+
+  # Diplômes - Formation en 2015 (FOR) - Collectivités d'outre-mer
+  FOR-com:
+    description: French census data, education, overseas
+    driver: excel
+    args:
+      urlpath: 'https://www.insee.fr/fr/statistiques/fichier/3627372/base-ic-diplomes-formation-2015-com.zip'
+      compression_method: 'zip'
+      excel_kwargs:
+        header: 5
+    metadata:
+      official_name: Diplômes - Formation en 2015 - Base infracommunale - Collectivités d'outre-mer
+
+  # Couples - Familles - Ménages en 2015 (FAM) - France hors Mayotte
+  FAM:
+    description: French census data, families and households, metropolitan
+    driver: excel
+    args:
+      urlpath: 'https://www.insee.fr/fr/statistiques/fichier/3627367/base-ic-couples-familles-menages-2015.zip'
+      compression_method: 'zip'
+      excel_kwargs:
+        header: 5
+    metadata:
+      official_name: Couples - Familles - Ménages en 2015 - Base infracommunale - France hors Mayotte
+
+  # Couples - Familles - Ménages en 2015 (FAM) - Collectivités d'outre-mer
+  FAM-com:
+    description: French census data, families and households, overseas
+    driver: excel
+    args:
+      urlpath: 'https://www.insee.fr/fr/statistiques/fichier/3627367/base-ic-couples-familles-menages-2015-com.zip'
+      compression_method: 'zip'
+      excel_kwargs:
+        header: 5
+    metadata:
+      official_name: Couples - Familles - Ménages en 2015 - Base infracommunale - Collectivités d'outre-mer
+
+  # Logement en 2015 (LOG) - France hors Mayotte
+  LOG:
+    description: French census data, housing, metropolitan
+    driver: excel
+    args:
+      urlpath: 'https://www.insee.fr/fr/statistiques/fichier/3627374/base-ic-logement-2015.zip'
+      compression_method: 'zip'
+      excel_kwargs:
+        header: 5
+    metadata:
+      official_name: Logement en 2015 - Base infracommunale - France hors Mayotte
+
+  # Logement en 2015 (LOG) - Collectivités d'outre-mer
+  LOG-com:
+    description: French census data, housing, overseas
+    driver: excel
+    args:
+      urlpath: 'https://www.insee.fr/fr/statistiques/fichier/3627374/base-ic-logement-2015-com.zip'
+      compression_method: 'zip'
+      excel_kwargs:
+        header: 5
+    metadata:
+      official_name: Logement en 2015 - Base infracommunale - Collectivités d'outre-mer
+
+  # Population en 2015 (POP) - France hors Mayotte
+  POP:
+    description: French census data, population, metropolitan
+    driver: excel
+    args:
+      urlpath: 'https://www.insee.fr/fr/statistiques/fichier/3627376/base-ic-evol-struct-pop-2015.zip'
+      compression_method: 'zip'
+      excel_kwargs:
+        header: 5
+    metadata:
+      official_name: Population en 2015 - Base infracommunale - France hors Mayotte
+
+  # Population en 2015 (POP) - Collectivités d'outre-mer
+  POP-com:
+    description: French census data, population, overseas
+    driver: excel
+    args:
+      urlpath: 'https://www.insee.fr/fr/statistiques/fichier/3627376/base-ic-evol-struct-pop-2015-com.zip'
+      compression_method: 'zip'
+      excel_kwargs:
+        header: 5
+    metadata:
+      official_name: Population en 2015 - Base infracommunale - Collectivités d'outre-mer

@@ -1,0 +1,20 @@
+# meta.yaml
+package:
+  version: '0.1.0'
+  name: 'census-fr'
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  run:
+    - intake
+    - intake-excel
+  build: []
+
+about:
+  description: Intake data package for french census data from national statistics institute (https://www.insee.fr)
+  license: BSD-2-Clause
+  license_family: BSD
+  summary: French census data
